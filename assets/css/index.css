@@ -1,0 +1,45 @@
+body{
+    background-color: azure;
+    color:black
+}
+span{
+    color: #ec4067;
+}
+header{
+    display:flex;
+    justify-content: flex-end;
+
+}
+header h2{
+    margin-right: auto;
+}
+ul li{
+    display: inline-block;
+    margin: 10px;
+}
+li a{
+    text-decoration: none;
+}
+
+.button{
+    border-radius: 5px;
+    background-color: #ec4067;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ec4067;
+    text-decoration: none;
+}
+.section .right{
+    display: flex;
+    
+
+}

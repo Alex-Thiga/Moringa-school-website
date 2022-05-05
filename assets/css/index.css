@@ -1,6 +1,8 @@
 body{
-    background-color: azure;
-    color:black
+    background-color: white;
+    color:black;
+    margin-top: 15px;
+    overflow-x: hidden;
 }
 span{
     color: #ec4067;
@@ -31,6 +33,7 @@ li a{
 .section1{
     display: flex;
     justify-content: space-between;
+    margin: 50px;
 }
 .link{
     border-radius: 5px;
@@ -38,8 +41,58 @@ li a{
     border: 1px solid #ec4067;
     text-decoration: none;
 }
-.section .right{
-    display: flex;
+.section1 .right img{
+    height: 400px;
+    width: 400px;
     
+}
+.section1 .left{
+    width: 500px;
+    align-items: center;
+}    
+.section2{
+    display: flex;
+    justify-content: space-between;
+}
+.section2 .left img{
+    width: 400px;
+    float: left;
+    margin-right: 60px;
+}
+.section2 .right{
+    align-items: center;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 
+}
+.section3 .left{
+    width: 400px;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.section3 .right img{
+    width: 500px;
+    height: 400px;
+}
+.section4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.section4 .left img{
+    float: left;
+    width: 600px;
+    height: 400px;
+    margin-right: 10px
+}
+.section4 .right{
+    width: 400px;
+    align-items: center;
+}
+.section2 .left span{
+    text-shadow: ;
 }
